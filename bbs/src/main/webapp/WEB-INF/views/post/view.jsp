@@ -23,7 +23,7 @@
 		       self.location = "/bbs/post/list?bbsNo=${param.bbsNo}&curPage=1";
 		    });
 		    
-		    $(".replyAddBtn").click(function(){
+		    /* $(".replyAddBtn").click(function(){
 	            var replyContent= $("#replyContent").val();
 	            var replyWriter = $("#replyWriter").val();	            
 	            var param="replyContent=" + replyContent + "&replyWriter=" + replyWriter + "&postNo="+postNo;
@@ -55,7 +55,7 @@
      					console.log(result);
 		            }
 		        });
-		    }
+		    } */
 		    
 		});
 	</script>
@@ -107,7 +107,7 @@
 					    </div>
 					</div>
 					
-					<div class="box box-warning">
+					<!-- <div class="box box-warning">
 					    <div class="box-header with-border">
 					        <a class="link-black text-lg"><i class="fa fa-pencil"></i> 댓글작성</a>
 					    </div>
@@ -130,16 +130,14 @@
 					</div>
 
 					<div class="box box-success collapsed-box">
-					    <%--댓글 유무 / 댓글 갯수 / 댓글 펼치기, 접기--%>
 					    <div class="box-header with-border">
 					        <a href="" class="link-black text-lg"><i class="fa fa-comments-o margin-r-5 replyCount"></i></a>
 					        <div class="box-tools">
 					            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
 					        </div>
 					    </div>
-					    <%--댓글 목록--%>
 					    <div class="box-body replyList"></div>
-					</div>
+					</div> -->
 				</section>
 			</div>
 			
