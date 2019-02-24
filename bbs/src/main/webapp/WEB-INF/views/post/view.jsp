@@ -100,8 +100,11 @@
 					            </form>
 					            <button type="submit" class="btn btn-primary listBtn"><i class="fa fa-list"></i> 목록</button>
 					            <div class="pull-right">
-					                <button type="submit" class="btn btn-warning modBtn"><i class="fa fa-edit"></i> 수정</button>
-					                <button type="submit" class="btn btn-danger delBtn"><i class="fa fa-trash"></i> 삭제</button>
+					            	<c:if test="${param.bbsNo != '2' || post.categoryId != '1'}">
+					            		<button type="submit" class="btn btn-warning modBtn"><i class="fa fa-edit"></i> 수정</button>
+					            		<button type="submit" class="btn btn-danger delBtn"><i class="fa fa-trash"></i> 삭제</button>
+					            	</c:if>
+					                
 					            </div>
 					        </div>
 					    </div>
